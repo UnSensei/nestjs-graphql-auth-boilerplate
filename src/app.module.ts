@@ -19,6 +19,7 @@ import { UsersModule } from './modules/users/users.module';
      * and generate the .gql file
      * Also the playground mode and debug will only be available if the application
      *  is running under a development environment.
+     *  test
      */
     GraphQLModule.forRoot({
       autoSchemaFile: join(__dirname, 'graphql', 'schema.gql'),
